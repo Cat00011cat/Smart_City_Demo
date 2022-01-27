@@ -1,0 +1,321 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		}
+		// 首页全部服务模块声明开始
+		, {
+			"path": "pages/index/park/index",
+			"style": {
+				"navigationBarTitleText": "停哪儿",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/metro_query/index",
+			"style": {
+				"navigationBarTitleText": "城市地铁",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/bus_query/index",
+			"style": {
+				"navigationBarTitleText": "智慧巴士",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/outpatient/index",
+			"style": {
+				"navigationBarTitleText": "门诊预约",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/traffic/index",
+			"style": {
+				"navigationBarTitleText": "智慧交管",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/living_expenses/index",
+			"style": {
+				"navigationBarTitleText": "生活缴费",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/takeout/index",
+			"style": {
+				"navigationBarTitleText": "外卖订餐",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/house/index",
+			"style": {
+				"navigationBarTitleText": "找房子",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/movie/index",
+			"style": {
+				"navigationBarTitleText": "看电影",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/job/index",
+			"style": {
+				"navigationBarTitleText": "找工作",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/activity/index",
+			"style": {
+				"navigationBarTitleText": "活动管理",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/analyse/index",
+			"style": {
+				"navigationBarTitleText": "数据分析",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		// 首页全部服务模块声结束
+
+
+		// 全部服务模块页面声明开始
+		{
+			"path": "pages/allService/park/index",
+			"style": {
+				"navigationBarTitleText": "停哪儿",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/allService/metro_query/index",
+			"style": {
+				"navigationBarTitleText": "城市地铁",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/allService/bus_query/index",
+			"style": {
+				"navigationBarTitleText": "智慧巴士",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/allService/outpatient/index",
+			"style": {
+				"navigationBarTitleText": "门诊预约",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/allService/traffic/index",
+			"style": {
+				"navigationBarTitleText": "智慧交管",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/allService/living_expenses/index",
+			"style": {
+				"navigationBarTitleText": "生活缴费",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/allService/takeout/index",
+			"style": {
+				"navigationBarTitleText": "外卖订餐",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/allService/house/index",
+			"style": {
+				"navigationBarTitleText": "找房子",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/allService/movie/index",
+			"style": {
+				"navigationBarTitleText": "看电影",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+		 "path": "pages/allService/job/index",
+			"style": {
+				"navigationBarTitleText": "找工作",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/allService/activity/index",
+			"style": {
+				"navigationBarTitleText": "活动管理",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/allService/analyse/index",
+			"style": {
+				"navigationBarTitleText": "数据分析",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		// 全部服务模块页面声明结束
+
+
+		{
+			"path": "pages/allService/allService",
+			"style": {
+				"navigationBarTitleText": "全部服务",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/News/News",
+			"style": {
+				"navigationBarTitleText": "新闻资讯",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Shequ/Shequ",
+			"style": {
+				"navigationBarTitleText": "智慧社区",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Me/Me",
+			"style": {
+				"navigationBarTitleText": "我的信息",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/xwxq",
+			"style": {
+				"navigationBarTitleText": "新闻详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Shequ/propertyNotice",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Me/login",
+			"style": {
+				"navigationBarTitleText": "用户登录",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Me/register",
+			"style": {
+				"navigationBarTitleText": "用户注册",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Me/getInfo",
+			"style": {
+				"navigationBarTitleText": "个人基本信息",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Me/orderlist",
+			"style": {
+				"navigationBarTitleText": "订单列表",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Me/resetpassword",
+			"style": {
+				"navigationBarTitleText": "修改用户密码",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/Me/feedback",
+			"style": {
+				"navigationBarTitleText": "意见反馈",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/searchValue",
+			"style": {
+				"navigationBarTitleText": "搜索结果",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#007AFF",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#C0C0C0",
+		"selectedColor": "#007AFF",
+		"list": [{
+				"iconPath": "static/tabBar/main0.png",
+				"selectedIconPath": "static/tabBar/main1.png",
+				"pagePath": "pages/index/index",
+				"text": "首页"
+			},
+			{
+				"iconPath": "static/tabBar/allservice0.png",
+				"selectedIconPath": "static/tabBar/allservice1.png",
+				"pagePath": "pages/allService/allService",
+				"text": "全部服务"
+			},
+			{
+				"iconPath": "static/tabBar/new0.png",
+				"selectedIconPath": "static/tabBar/new1.png",
+				"pagePath": "pages/News/News",
+				"text": "新闻"
+			},
+			{
+				"iconPath": "static/tabBar/huodong0.png",
+				"selectedIconPath": "static/tabBar/huodong1.png",
+				"pagePath": "pages/Shequ/Shequ",
+				"text": "智慧社区"
+			},
+			{
+				"iconPath": "static/tabBar/person0.png",
+				"selectedIconPath": "static/tabBar/person1.png",
+				"pagePath": "pages/Me/Me",
+				"text": "我的"
+			}
+		]
+	}
+}

@@ -1,0 +1,1 @@
+<view><view style="margin:12rpx 36rpx;font-size:36rpx;font-weight:bold;">{{bannerList[index].label}}</view><image style="width:90%;margin:24rpx 36rpx;" src="{{bannerList[index].image}}" mode="scaleToFill"></image><view style="padding:36rpx;"><rich-text nodes="{{bannerList[index].content}}"></rich-text></view></view>

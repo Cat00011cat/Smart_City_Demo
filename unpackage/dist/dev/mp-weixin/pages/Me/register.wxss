@@ -1,0 +1,9 @@
+
+.text {
+	padding: 5px;
+}
+input {
+	/* 输入框添加下划线 */
+	border-bottom: 1px solid #cacacc;
+}
+

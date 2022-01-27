@@ -1,0 +1,152 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* banner样式 */
+.propertyNotice {
+	background-color: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	color: #FFFFFF;
+	padding-left: 24rpx;
+}
+/* banner样式 */
+.banner {
+	margin: 32rpx 48rpx;
+	padding: 1rpx;
+	border: #000000 solid 1rpx;
+	border-radius: 24rpx;
+	overflow: hidden;
+}
+/* 服务入口图标样式 */
+.promoteItem {
+	width: 85%;
+	height: 358rpx;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 64rpx;
+	border: #000000 solid 1rpx;
+	margin-bottom: 24rpx;
+	border-radius: 36rpx;
+	overflow: hidden;
+}
+/* 商业推广样式 */
+.bannerItem {
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+

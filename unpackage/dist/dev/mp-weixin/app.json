@@ -1,0 +1,86 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/park/index",
+    "pages/index/metro_query/index",
+    "pages/index/bus_query/index",
+    "pages/index/outpatient/index",
+    "pages/index/traffic/index",
+    "pages/index/living_expenses/index",
+    "pages/index/takeout/index",
+    "pages/index/house/index",
+    "pages/index/movie/index",
+    "pages/index/job/index",
+    "pages/index/activity/index",
+    "pages/index/analyse/index",
+    "pages/allService/park/index",
+    "pages/allService/metro_query/index",
+    "pages/allService/bus_query/index",
+    "pages/allService/outpatient/index",
+    "pages/allService/traffic/index",
+    "pages/allService/living_expenses/index",
+    "pages/allService/takeout/index",
+    "pages/allService/house/index",
+    "pages/allService/movie/index",
+    "pages/allService/job/index",
+    "pages/allService/activity/index",
+    "pages/allService/analyse/index",
+    "pages/allService/allService",
+    "pages/News/News",
+    "pages/Shequ/Shequ",
+    "pages/Me/Me",
+    "pages/index/xwxq",
+    "pages/Shequ/propertyNotice",
+    "pages/Me/login",
+    "pages/Me/register",
+    "pages/Me/getInfo",
+    "pages/Me/orderlist",
+    "pages/Me/resetpassword",
+    "pages/Me/feedback",
+    "pages/index/searchValue"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#007AFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#C0C0C0",
+    "selectedColor": "#007AFF",
+    "list": [
+      {
+        "iconPath": "static/tabBar/main0.png",
+        "selectedIconPath": "static/tabBar/main1.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "static/tabBar/allservice0.png",
+        "selectedIconPath": "static/tabBar/allservice1.png",
+        "pagePath": "pages/allService/allService",
+        "text": "全部服务"
+      },
+      {
+        "iconPath": "static/tabBar/new0.png",
+        "selectedIconPath": "static/tabBar/new1.png",
+        "pagePath": "pages/News/News",
+        "text": "新闻"
+      },
+      {
+        "iconPath": "static/tabBar/huodong0.png",
+        "selectedIconPath": "static/tabBar/huodong1.png",
+        "pagePath": "pages/Shequ/Shequ",
+        "text": "智慧社区"
+      },
+      {
+        "iconPath": "static/tabBar/person0.png",
+        "selectedIconPath": "static/tabBar/person1.png",
+        "pagePath": "pages/Me/Me",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

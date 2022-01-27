@@ -1,0 +1,88 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 服务板块 */
+/* 背景 */
+.iconBox {
+	margin: 15rpx;
+	height: 710rpx;
+	background-color: #FEFEFE;
+	border-radius: 15rpx;
+}
+.HomeIcons-top-item {
+	/* 控制图标排列 */
+	/*  向左浮动  目的 图标一行显示*/
+	float: left;
+	margin: 10px 0px 0px 0px;
+	width: 20%;
+}
+/* 图标大小 */
+.HomeIcons-top-item-icon {
+	width: 50px;
+	height: 50px;
+	margin: 0 auto;
+	padding: 10px;
+}
+/* 图标名称 */
+.HomeIcons-top-item-icon-desc {
+	text-align: center;
+}
+

@@ -1,0 +1,134 @@
+
+.searchBox {
+	padding: 15rpx;
+}
+.searchBg {
+	background-color: #FFFFFF;
+	border-radius: 15rpx;
+}
+
+/* 轮播图样式 */
+.swiperBox {
+	margin: 15rpx;
+	height: 151px;
+	background-color: #FFFFFF;
+	border-radius: 20rpx;
+}
+image {
+	width: 710rpx;
+	height: 151px;
+	border-radius: 10px;
+}
+
+/* 服务板块 */
+
+/* 背景 */
+.iconBox {
+	margin: 15rpx;
+	height: 450rpx;
+	background-color: #FEFEFE;
+	border-radius: 15rpx;
+}
+.HomeIcons-top-item {
+	/* 控制图标排列 */
+	/*  向左浮动  目的 图标一行显示*/
+	float: left;
+	margin: 10px 0px 0px 0px;
+	width: 20%;
+}
+
+/* 图标大小 */
+.HomeIcons-top-item-icon {
+	width: 50px;
+	height: 50px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+/* 图标名称 */
+.HomeIcons-top-item-icon-desc {
+	text-align: center;
+}
+
+/* 主题 */
+.themeBoxL {
+	float: left;
+	background-color: #ffffff;
+	background-size: 195rpx;
+	width: 350rpx;
+	height: 200rpx;
+	margin-left: 20rpx;
+	border-radius: 20px;
+}
+.themeBoxR {
+	float: left;
+	background-color: #ffffff;
+	background-size: 195rpx;
+	width: 350rpx;
+	height: 200rpx;
+	left: 15rpx;
+	margin-left: 10rpx;
+	border-radius: 20px;
+}
+
+/* 新闻 */
+.box {
+	margin: 230rpx 15rpx 15rpx 15rpx;
+	background: #FEFEFE;
+	border-radius: 5px;
+}
+.scroll-x {
+	display: flex;
+	white-space: nowrap;
+}
+.title {
+	padding: 0 30rpx;
+	font-size: 18px;
+}
+
+/* 新闻内容 */
+.bg {
+	margin: 15rpx;
+	border-radius: 5px;
+	background: #FFFFFF;
+	padding: 10px;
+}
+.titlea {
+	font-size: 18px;
+	font-weight: bold;
+	/* 设置行距 */
+	line-height: 30px;
+}
+.img {
+	margin-top: 5px;
+	width: 100%;
+	height: 150px;
+	border-radius: 5px;
+}
+.desc {
+	margin-top: 5px;
+	font-size: 16px;
+	line-height: 30px;
+
+	/*  */
+	overflow: hidden;
+	word-break: break-all;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+}
+.time {
+	margin-top: 5px;
+	font-size: 14px;
+	color: #a6a6a6;
+}
+
+/* 标签选中变色 */
+.itemTabSelect {
+	color: #007AFF;
+	font-size: 20px;
+	font-weight: bold;
+	border-bottom-width: 4px;
+}
+

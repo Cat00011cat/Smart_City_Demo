@@ -1,0 +1,28 @@
+
+.mineBackground {
+	height: 100px;
+	margin: 30px 10px 10px 10px;
+}
+.mineAvatar {
+	float: left;
+	width: 88px;
+	height: 88px;
+	top: 5px;
+	border-radius: 100%;
+}
+.mineName {
+	font-size: 18px;
+	float: left;
+	margin: 30px 30px 30px 20px;
+}
+.loginout {
+	padding: 120px;
+}
+.meTitle {
+	padding: 50rpx;
+	/* background-color: #FFFFFF; */
+}
+.right {
+	float: right;
+}
+
