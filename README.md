@@ -1,6 +1,6 @@
 GIF演示：
 
-<img src="D:./static/demo.gif" alt="demo" style="zoom:80%;" />
+<img src="static/demo.gif" alt="demo" style="zoom:80%;" />
 
 
 
