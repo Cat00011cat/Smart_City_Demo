@@ -44,12 +44,12 @@
 			<view class="themeBoxL" @click="goTheme(0)">
 				<image src="http://wx3.sinaimg.cn/bmiddle/006CXrEjly1gr48ftok6mj30n00mutc4.jpg"
 					style="width: 175px;height: 70px;"></image>
-				<view>主题主题主题主题主....</view>
+				<view>泡面加蛋烦恼滚蛋...</view>
 			</view>
 			<view class="themeBoxR" @click="goTheme(1)">
 				<image src="http://wx1.sinaimg.cn/bmiddle/ceeb653ely1g5q9mk5jjqj206o06o74a.jpg"
 					style="width: 175px;height: 70px;"></image>
-				<view>主题主题主题主题主.....</view>
+				<view>【好运莲莲】荷花...</view>
 			</view>
 		</view>
 		<!-- 热门主题模块结束 -->
@@ -379,8 +379,8 @@
 	/* 标签选中变色 */
 	.itemTabSelect {
 		color: #007AFF;
-		font-size: 20px;
-		font-weight: bold;
-		border-bottom-width: 4px;
+		/* font-size: 20px; */
+		/* font-weight: bold; */
+		border-bottom-width: 3px;
 	}
 </style>
