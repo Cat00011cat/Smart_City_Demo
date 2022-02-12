@@ -4,12 +4,11 @@
 		<!-- 搜索框开始 -->
 		<view class="searchBox">
 			<view class="searchBg">
-				<input placeholder="假装有搜索" v-model="searchValue" confirm-type="search"
+				<input placeholder="Q 搜索" v-model="searchValue" confirm-type="search"
 					@confirm="doSearch(searchValue)" />
 			</view>
 		</view>
 		<!-- 搜索框结束 -->
-
 
 		<!-- 轮播图开始 -->
 		<view>
@@ -22,7 +21,6 @@
 			</swiper>
 		</view>
 		<!-- 轮播图结束 -->
-
 
 		<!-- 全部服务开始 -->
 		<view class="iconBox">
@@ -41,7 +39,6 @@
 		</view>
 		<!-- 全部服务结束 -->
 
-
 		<!-- 热门主题模块开始 -->
 		<view>
 			<view class="themeBoxL" @click="goTheme(0)">
@@ -56,7 +53,6 @@
 			</view>
 		</view>
 		<!-- 热门主题模块结束 -->
-
 
 		<!-- 新闻模块开始 -->
 		<view>
@@ -92,7 +88,6 @@
 		</view>
 		<!-- 新闻模块结束 -->
 
-
 	</view>
 </template>
 
@@ -109,7 +104,7 @@
 				tabList: [], //存储新闻分类
 				newDataList: [], //存储新闻列表
 				type: 0, //新闻分类的id
-				searchValue:''	//存储获取用户输入的搜索内容
+				searchValue: '' //存储获取用户输入的搜索内容
 
 			}
 		},
@@ -171,8 +166,6 @@
 				})
 			},
 
-
-
 			//热门主题跳转
 			goTheme(e) {
 				// console.log(e)
@@ -191,7 +184,6 @@
 					url: pageUrl,
 				})
 			},
-
 
 			//更多服务跳转
 			toAllservice() {
@@ -222,8 +214,6 @@
 				})
 			},
 
-
-
 			// 获取轮播图
 			getBannerList() {
 				// 此处使用that是因为在uni.request中，this不是指向这里的this
@@ -252,8 +242,9 @@
 	}
 
 	.searchBg {
-		background-color: #FFFFFF;
+		background-color: #f1f1f3;
 		border-radius: 15rpx;
+		height: 60rpx;
 	}
 
 	/* 轮播图样式 */
@@ -265,7 +256,7 @@
 	}
 
 	image {
-		width: 710rpx;
+		width: 720rpx;
 		height: 151px;
 		border-radius: 10px;
 	}
