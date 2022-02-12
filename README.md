@@ -1,6 +1,20 @@
+## demo
+
+![demo1](static/demo.png)
+
+![demo1](static/demo1.png)
+
+<img src="static/demo/my1.png" alt="demo1" style="zoom:50%;" />
+
+
+
+
+
+
+
 GIF演示：
 
-<img src="static/demo.gif" alt="demo" style="zoom:80%;" />
+<img src="static/demo.gif" alt="demo" style="zoom:50%;" />
 
 
 
