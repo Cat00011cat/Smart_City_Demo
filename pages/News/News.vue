@@ -159,8 +159,8 @@
 	/* 标签选中变色 */
 	.itemTabSelect {
 		color: #007AFF;
-		font-size: 20px;
-		font-weight: bold;
-		border-bottom-width: 4px;
+		/* font-size: 20px; */
+		/* font-weight: bold; */
+		border-bottom-width: 3px;
 	}
 </style>
